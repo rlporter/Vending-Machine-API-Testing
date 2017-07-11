@@ -1,0 +1,22 @@
+{
+  "name": "vending_machine",
+  "version": "1.0.0",
+  "description": "//Test and build a vending machine app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlporter/Vending-Machine-API-Testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rlporter/Vending-Machine-API-Testing/issues"
+  },
+  "homepage": "https://github.com/rlporter/Vending-Machine-API-Testing#readme",
+  "dependencies": {
+    "sequelize": "^4.3.1"
+  }
+}
