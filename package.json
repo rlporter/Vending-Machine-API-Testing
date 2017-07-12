@@ -4,7 +4,7 @@
   "description": "//Test and build a vending machine app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/rlporter/Vending-Machine-API-Testing#readme",
   "dependencies": {
+    "chai": "^4.0.2",
+    "pg": "^6.4.0",
     "sequelize": "^4.3.1"
   }
 }
