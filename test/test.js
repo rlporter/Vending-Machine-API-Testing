@@ -20,4 +20,4 @@ describe('GET /customer/items', function(){
 
   })
   .end(done);
-})
+});

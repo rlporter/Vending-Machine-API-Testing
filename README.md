@@ -5,7 +5,7 @@ For this project, you will create a JSON API for a vending machine. This machine
 To Create:DONE
 db: vendingMachine
 table/model: items
-columns: id (integer), itemName (string), description(text), priceInCents(number), createdAt (date), updatedAt (date)
+columns: id (integer), itemName (string), description(text), cost(number), createdAt (date), updatedAt (date)
 table/model: customers
 columns: id (integer). customerName (string), customerID (integer), createdAt (date), updatedAt (date)
 table/model: vendors

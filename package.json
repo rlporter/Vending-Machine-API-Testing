@@ -4,7 +4,7 @@
   "description": "//Test and build a vending machine app",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,15 @@
   },
   "homepage": "https://github.com/rlporter/Vending-Machine-API-Testing#readme",
   "dependencies": {
-    "chai": "^4.0.2",
+    "chai": "^4.1.0",
+    "express": "^4.15.3",
     "pg": "^6.4.0",
-    "sequelize": "^4.3.1"
-  }
+    "sequelize": "^4.3.1",
+    "supertest": "^3.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "keywords": []
 }
